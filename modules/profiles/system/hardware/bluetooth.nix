@@ -1,5 +1,4 @@
-{ config, lib, ... }:
-lib.mkIf config.host-specs.bluetooth {
+{
   hardware.bluetooth = {
     enable = true;
     settings.General = {
@@ -7,9 +6,5 @@ lib.mkIf config.host-specs.bluetooth {
       MultiProfile = "multiple";
       FastConnectable = true;
     };
-  };
-  environment.shellAliases = {
-    btc = "bluetoothctl connect 88:D0:39:65:46:85";
-    btd = "bluetoothctl disconnect";
   };
 }
