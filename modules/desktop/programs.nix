@@ -30,6 +30,9 @@
   environment.systemPackages = with pkgs; [
     scripts.sf
     alacritty
+    neofetch
+    super-slicer-latest
+    libreoffice-fresh
     tree
     telegram-desktop
     betaflight-configurator
