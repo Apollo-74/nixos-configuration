@@ -11,5 +11,8 @@
     command-not-found.enable = false;
   };
 
-  environment.systemPackages = with pkgs; [ scripts.sf alacritty ];
+  environment.systemPackages = with pkgs; [
+    scripts.sf
+    alacritty
+  ];
 }
