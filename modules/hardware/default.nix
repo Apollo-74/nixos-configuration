@@ -1,4 +1,3 @@
-{ config, ... }:
 {
   hardware.enableRedistributableFirmware = true;
   zramSwap.enable = true;

@@ -1,3 +1,3 @@
 # * Overlay that overrides existing packages.
-inputs: final: prev: {
-}
+_inputs: _final: _prev:
+{ }

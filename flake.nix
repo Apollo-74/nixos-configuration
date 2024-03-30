@@ -3,31 +3,6 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    shlyupa.url = "github:ilya-fedin/nur-repository";
-    home-manager.url = "github:nix-community/home-manager/master";
-    home-manager.inputs.nixpkgs.follows = "nixpkgs";
-
-    dots = {
-      url = "github:name-snrl/home";
-      flake = false;
-    };
-    nvim = {
-      url = "github:name-snrl/nvim";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    nvim-nightly = {
-      url = "github:neovim/neovim?dir=contrib";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
-    graphite-gtk = {
-      url = "github:vinceliuice/graphite-gtk-theme";
-      flake = false;
-    };
-    graphite-kde = {
-      flake = false;
-      url = "github:vinceliuice/graphite-kde-theme";
-    };
 
     flake-registry = {
       url = "github:nixos/flake-registry";
@@ -65,7 +40,6 @@
         ./overlays
         ./pkgs
         ./shell.nix
-        ./templates
       ];
     })
     // {

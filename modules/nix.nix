@@ -1,7 +1,5 @@
 { config, inputs, ... }:
 {
-  imports = [ inputs.shlyupa.nixosModules.cache ];
-  nur.ilya-fedin.cache.enable = true;
   nix = {
     nixPath = [ "nixpkgs=${inputs.nixpkgs}" ];
 

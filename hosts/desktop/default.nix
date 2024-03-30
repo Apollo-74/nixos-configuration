@@ -1,9 +1,4 @@
-{
-  pkgs,
-  inputs,
-  importsFromAttrs,
-  ...
-}:
+{ inputs, importsFromAttrs, ... }:
 {
   imports =
     [ ./hw-config.nix ]
@@ -11,8 +6,7 @@
       importByDefault = true;
       modules = inputs.self.nixosModules;
       imports = {
-        profiles.system.servers.openssh = false;
-        profiles.system.desktop.work = false;
+        servers.openssh = false;
       };
     };
 
