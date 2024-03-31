@@ -34,7 +34,7 @@
     jetbrains.pycharm-community
     fastfetch
     vlc
-    #super-slicer-beta
+    super-slicer-beta
     libreoffice-fresh
     tree
     telegram-desktop
