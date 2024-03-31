@@ -30,6 +30,7 @@
   environment.systemPackages = with pkgs; [
     scripts.sf
     alacritty
+    kdePackages.kcalc
     jetbrains.pycharm-community
     fastfetch
     vlc
