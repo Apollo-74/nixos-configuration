@@ -1,6 +1,11 @@
 { pkgs, ... }:
 {
   boot = {
+    initrd.availableKernelModules = [
+      "sd_mod"
+      "ext4"
+      "amdgpu"
+    ];
     kernelPackages = pkgs.linuxPackages_zen;
     initrd.systemd.enable = true;
     initrd.includeDefaultModules = false;
