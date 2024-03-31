@@ -30,7 +30,9 @@
   environment.systemPackages = with pkgs; [
     scripts.sf
     alacritty
+    jetbrains.pycharm-community
     fastfetch
+    vlc
     #super-slicer-beta
     libreoffice-fresh
     tree
