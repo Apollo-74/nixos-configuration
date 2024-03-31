@@ -39,6 +39,7 @@
     tree
     telegram-desktop
     betaflight-configurator
-    bottles
+    anydesk
+    qbittorrent
   ];
 }
