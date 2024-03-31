@@ -39,5 +39,6 @@
     tree
     telegram-desktop
     betaflight-configurator
+    bottles
   ];
 }
