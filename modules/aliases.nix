@@ -1,4 +1,3 @@
-_:
 let
   cfgPath = "~/nixos-configuration";
 in
