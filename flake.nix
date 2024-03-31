@@ -3,6 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs-slicer.url = "github:nixos/nixpkgs/7a651af1367fe543ca63a4666ba9905db953fb1f";
 
     flake-registry = {
       url = "github:nixos/flake-registry";
