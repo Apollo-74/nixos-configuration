@@ -30,8 +30,8 @@
   environment.systemPackages = with pkgs; [
     scripts.sf
     alacritty
-    neofetch
-    super-slicer-latest
+    fastfetch
+    #super-slicer-beta
     libreoffice-fresh
     tree
     telegram-desktop

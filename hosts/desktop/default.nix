@@ -1,4 +1,9 @@
-{ inputs, importsFromAttrs, ... }:
+{
+  inputs,
+  importsFromAttrs,
+  pkgs,
+  ...
+}:
 {
   imports =
     [ ./hw-config.nix ]
@@ -17,7 +22,8 @@
   #powerManagement.cpuFreqGovernor = "schedutil";
 
   # GPU acceleration
-  #hardware.opengl.extraPackages = with pkgs; [ intel-media-driver ];
+  hardware.opengl.extraPackages = [ pkgs.amdvlk ];
+  hardware.opengl.extraPackages32 = [ pkgs.driversi686Linux.amdvlk ];
 
   system.stateVersion = "24.05";
 }
