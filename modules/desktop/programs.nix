@@ -30,6 +30,7 @@
   environment.systemPackages = with pkgs; [
     scripts.sf
     alacritty
+    gparted
     kdePackages.kcalc
     jetbrains.pycharm-community
     fastfetch
@@ -40,6 +41,7 @@
     telegram-desktop
     betaflight-configurator
     anydesk
+    kdiskmark
     qbittorrent
   ];
 }
