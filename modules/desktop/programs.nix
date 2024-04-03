@@ -28,9 +28,11 @@
   };
 
   environment.systemPackages = with pkgs; [
+    python3
     scripts.sf
     alacritty
     gparted
+    yandex-browser
     kdePackages.kcalc
     jetbrains.pycharm-community
     fastfetch
