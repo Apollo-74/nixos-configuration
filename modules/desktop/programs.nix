@@ -46,5 +46,6 @@
     anydesk
     kdiskmark
     qbittorrent
+    gyroflow
   ];
 }
