@@ -50,5 +50,6 @@
     kdiskmark
     qbittorrent
     gyroflow
+    virtualbox
   ];
 }
