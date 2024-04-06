@@ -30,6 +30,7 @@
   environment.systemPackages = with pkgs; [
     fd
     python3
+    vscode
     scripts.sf
     alacritty
     gparted
