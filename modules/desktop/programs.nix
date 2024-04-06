@@ -28,6 +28,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    fd
     python3
     scripts.sf
     alacritty
