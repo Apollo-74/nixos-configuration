@@ -40,6 +40,7 @@
     jetbrains.pycharm-community
     fastfetch
     vlc
+    mpv
     super-slicer-beta
     libreoffice-fresh
     tree
