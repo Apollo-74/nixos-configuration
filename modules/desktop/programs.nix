@@ -29,6 +29,7 @@
 
   environment.systemPackages = with pkgs; [
     fd
+    wget
     python3
     vscode
     scripts.sf
