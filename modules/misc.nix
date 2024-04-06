@@ -5,5 +5,6 @@
   services = {
     dbus.implementation = "broker";
     udisks2.enable = true;
+    flatpak.enable = true;
   };
 }
