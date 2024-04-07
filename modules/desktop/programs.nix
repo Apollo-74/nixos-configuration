@@ -29,6 +29,7 @@
 
   environment.systemPackages = with pkgs; [
     fd
+    eza
     wget
     python3
     vscode
