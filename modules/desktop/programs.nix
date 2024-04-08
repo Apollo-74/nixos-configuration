@@ -31,6 +31,7 @@
     fd
     eza
     wget
+    starship
     python3
     vscode
     scripts.sf
