@@ -6,6 +6,12 @@
       extraGroups = [
         "wheel"
         "dialout"
+        "video"
+        "kvm"
+        "networkmanager"
+        "lxd"
+        "libvirtd"
+        "vboxusers"
       ];
     };
   };

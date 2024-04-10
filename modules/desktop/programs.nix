@@ -31,6 +31,8 @@
     fd
     eza
     wget
+    pciutils
+    usbutils
     starship
     python3
     vscode
@@ -52,5 +54,20 @@
     kdiskmark
     qbittorrent
     gyroflow
+    qemu_kvm
+    virt-manager
   ];
+
+  virtualisation.spiceUSBRedirection.enable = true;
+  virtualisation.libvirtd = {
+    enable = true;
+    onShutdown = "shutdown";
+    qemu.package = pkgs.qemu_kvm;
+    qemu.ovmf.packages = [
+      (pkgs.OVMF.override {
+        secureBoot = true;
+        tpmSupport = true;
+      }).fd
+    ];
+  };
 }
