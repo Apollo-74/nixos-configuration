@@ -56,6 +56,7 @@
     gyroflow
     qemu_kvm
     virt-manager
+    davinci-resolve
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
