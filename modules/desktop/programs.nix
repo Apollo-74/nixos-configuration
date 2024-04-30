@@ -40,7 +40,7 @@
     scripts.sf
     alacritty
     gparted
-    #yandex-browser
+    lact
     kdePackages.kcalc
     jetbrains.pycharm-community
     fastfetch
