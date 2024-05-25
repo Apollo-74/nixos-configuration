@@ -45,7 +45,6 @@
     kdePackages.kcalc
     jetbrains.pycharm-community
     fastfetch
-    mpv
     vlc
     super-slicer-beta
     libreoffice-fresh
