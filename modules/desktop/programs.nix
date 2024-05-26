@@ -43,6 +43,7 @@
     gparted
     lact
     kdePackages.kcalc
+    kdePackages.kdenlive
     jetbrains.pycharm-community
     fastfetch
     vlc
