@@ -4,6 +4,6 @@
     desktopManager.plasma6.enable = true;
   };
   environment.plasma6.excludePackages = with pkgs.kdePackages; [ konsole ];
-  hardware.opengl.enable = true;
+  hardware.graphics.enable = true;
   networking.networkmanager.enable = true;
 }
