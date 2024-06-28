@@ -48,6 +48,7 @@
     fastfetch
     vlc
     chromium
+    discord
     super-slicer-beta
     libreoffice-fresh
     tree
