@@ -23,6 +23,7 @@
       treefmt = {
         projectRootFile = "flake.nix";
         programs = {
+          nixfmt = true;
           deadnix.enable = true;
           statix.enable = true; # fix, if possible
           shellcheck.enable = true;
