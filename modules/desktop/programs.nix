@@ -48,7 +48,6 @@
     fastfetch
     vlc
     chromium
-    discord
     super-slicer-beta
     libreoffice-fresh
     tree
@@ -58,8 +57,6 @@
     kdiskmark
     qbittorrent
     gyroflow
-    qemu_kvm
-    virt-manager
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
