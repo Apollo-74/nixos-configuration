@@ -47,6 +47,7 @@
     jetbrains.pycharm-community
     fastfetch
     vlc
+    mtr-gui
     chromium
     super-slicer-beta
     libreoffice-fresh
