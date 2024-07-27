@@ -12,6 +12,7 @@
         "lxd"
         "libvirtd"
         "vboxusers"
+        "docker"
       ];
     };
   };
