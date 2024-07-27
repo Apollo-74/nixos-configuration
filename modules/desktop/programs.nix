@@ -6,6 +6,7 @@
     direnv.enable = true;
     htop.enable = true;
     traceroute.enable = true;
+    nano.enable = false;
     git = {
       enable = true;
       config = {
@@ -26,6 +27,10 @@
       package = pkgs.nix-index-with-db;
     };
     command-not-found.enable = false;
+    neovim = {
+      enable = true;
+      defaultEditor = true;
+    };
   };
 
   environment.systemPackages = with pkgs; [
@@ -33,6 +38,7 @@
     ripgrep
     eza
     wget
+    tldr
     pciutils
     usbutils
     starship
