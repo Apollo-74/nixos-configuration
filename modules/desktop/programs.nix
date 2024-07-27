@@ -44,6 +44,7 @@
     lact
     kdePackages.kcalc
     kdePackages.kdenlive
+    kdePackages.ksvg
     jetbrains.pycharm-community
     fastfetch
     vlc
@@ -58,6 +59,8 @@
     kdiskmark
     qbittorrent
     gyroflow
+    wireguard-tools
+    dig
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
