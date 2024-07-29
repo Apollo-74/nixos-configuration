@@ -68,6 +68,7 @@
     wireguard-tools
     dig
     docker
+    libgcc
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
