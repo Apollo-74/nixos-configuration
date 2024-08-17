@@ -64,7 +64,6 @@
     anydesk
     kdiskmark
     qbittorrent
-    gyroflow
     wireguard-tools
     dig
     docker
