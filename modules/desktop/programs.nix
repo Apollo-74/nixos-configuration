@@ -68,6 +68,7 @@
     dig
     docker
     libgcc
+    gcc
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
