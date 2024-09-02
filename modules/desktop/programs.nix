@@ -69,6 +69,7 @@
     docker
     libgcc
     gcc
+    nekoray
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
