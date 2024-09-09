@@ -27,7 +27,10 @@
           deadnix.enable = true;
           statix.enable = true; # fix, if possible
           shellcheck.enable = true;
-          shfmt.enable = true;
+          shfmt = {
+            enable = true;
+            indent_size = 4;
+          };
           mdformat.enable = true;
           mdformat.package = pkgs.mdformat.withPlugins (
             p: with p; [
@@ -38,11 +41,13 @@
           );
         };
         settings.formatter = {
-          shfmt.options = [
-            "--case-indent"
-            "--indent"
-            "4"
-          ];
+          shfmt = {
+            excludes = [ "*.nix" ];
+            options = [ "--case-indent" ];
+          };
+          shellcheck = {
+            excludes = [ "*.envrc" ];
+          };
           mdformat.options = [
             "--wrap"
             "80"

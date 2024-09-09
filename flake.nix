@@ -18,10 +18,8 @@
       url = "github:hercules-ci/flake-parts";
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
-    nixos-ez-flake = {
-      url = "github:name-snrl/nixos-ez-flake";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    nixos-ez-flake.url = "github:name-snrl/nixos-ez-flake";
+
     treefmt-nix = {
       url = "github:numtide/treefmt-nix";
       inputs.nixpkgs.follows = "nixpkgs";
