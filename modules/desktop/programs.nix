@@ -64,7 +64,6 @@
     anydesk
     kdiskmark
     qbittorrent
-    wireguard-tools
     dig
     docker
     libgcc
