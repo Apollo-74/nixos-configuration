@@ -47,6 +47,7 @@
     scripts.sf
     alacritty
     gparted
+    gsmartcontrol
     lact
     kdePackages.kcalc
     kdePackages.kdenlive
