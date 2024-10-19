@@ -70,6 +70,7 @@
     libgcc
     gcc
     nekoray
+    kubectl
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
