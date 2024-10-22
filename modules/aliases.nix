@@ -12,7 +12,7 @@ in
     nboot = "nixos-rebuild boot --use-remote-sudo --fast --flake ${cfgPath}";
     nswitch = "nixos-rebuild switch --use-remote-sudo --fast --flake ${cfgPath}";
     ncheck = "nix flake check ${cfgPath}";
-    nupdate = "nix flake update --commit-lock-file ${cfgPath}";
+    nupdate = "nix flake update --commit-lock-file --flake ${cfgPath}";
     # TODO with nix 2.19, nlock is no longer needed to update inputs
     nlock = "nix flake lock --commit-lock-file ${cfgPath}";
     # https://github.com/NixOS/nix/issues/8508
