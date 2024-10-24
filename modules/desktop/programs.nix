@@ -71,6 +71,7 @@
     gcc
     nekoray
     kubectl
+    dbeaver-bin
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
