@@ -116,11 +116,11 @@
         "flake-parts": "flake-parts_2"
       },
       "locked": {
-        "lastModified": 1726335713,
-        "narHash": "sha256-/w7iAOFLRT0Ud7UhV2p+Tlp16locdkX/DBGzBSNuYAk=",
+        "lastModified": 1729867417,
+        "narHash": "sha256-zPpgLKsPHUHQJYl0pyK7dY/cKTaza1AxznOV433rkPY=",
         "owner": "name-snrl",
         "repo": "nixos-ez-flake",
-        "rev": "32bb2c68e4f87a535b647ace87e2ddff80ec002d",
+        "rev": "0915e44c47feb79b1bafd761305b9e09cd4398a2",
         "type": "github"
       },
       "original": {
