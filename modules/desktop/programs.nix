@@ -73,6 +73,7 @@
     nekoray
     kubectl
     dbeaver-bin
+    remmina
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
