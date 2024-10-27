@@ -53,6 +53,7 @@
     kdePackages.kdenlive
     kdePackages.ksvg
     jetbrains.pycharm-community
+    go
     fastfetch
     vlc
     mtr-gui
