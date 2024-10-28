@@ -53,6 +53,7 @@
     kdePackages.kdenlive
     kdePackages.ksvg
     jetbrains.pycharm-community
+    jetbrains.goland
     go
     fastfetch
     vlc
