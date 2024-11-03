@@ -75,6 +75,7 @@
     kubectl
     dbeaver-bin
     remmina
+    zellij
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
