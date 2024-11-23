@@ -60,7 +60,7 @@
     mtr-gui
     chromium
     super-slicer-beta
-    libreoffice-fresh
+    libreoffice
     tree
     telegram-desktop
     betaflight-configurator
