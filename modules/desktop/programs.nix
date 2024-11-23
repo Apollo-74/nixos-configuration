@@ -76,6 +76,7 @@
     dbeaver-bin
     remmina
     zellij
+    orca-slicer
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
