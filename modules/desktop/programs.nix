@@ -57,6 +57,8 @@
     go
     fastfetch
     vlc
+    mpv
+    mpvScripts.uosc
     mtr-gui
     chromium
     super-slicer-beta
