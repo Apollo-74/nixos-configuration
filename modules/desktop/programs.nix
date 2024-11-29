@@ -56,7 +56,6 @@
     jetbrains.goland
     go
     fastfetch
-    vlc
     mpv
     mpvScripts.uosc
     mtr-gui
@@ -78,7 +77,6 @@
     dbeaver-bin
     remmina
     zellij
-    orca-slicer
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
