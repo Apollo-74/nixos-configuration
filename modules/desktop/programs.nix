@@ -53,7 +53,6 @@
     kdePackages.kdenlive
     kdePackages.ksvg
     jetbrains.pycharm-community
-    jetbrains.goland
     go
     fastfetch
     mpv
@@ -74,7 +73,6 @@
     gcc
     nekoray
     kubectl
-    dbeaver-bin
     remmina
     zellij
   ];
