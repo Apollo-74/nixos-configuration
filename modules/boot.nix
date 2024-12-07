@@ -9,6 +9,7 @@
     initrd.systemd.enable = true;
     supportedFilesystems = [ "ntfs" ];
     tmp.useTmpfs = true;
+    tmp.tmpfsSize = "80%";
 
     loader = {
       efi.canTouchEfiVariables = false;
