@@ -145,6 +145,22 @@
         "type": "github"
       }
     },
+    "nixpkgs-anydesk": {
+      "locked": {
+        "lastModified": 1727385249,
+        "narHash": "sha256-i0nlhI2hMgVHsoWFcTQBPfdKSvTw/GbY1Ik6LNGRaEs=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "d16a573e0483ef171c010a45a27dcc8c15b37708",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "d16a573e0483ef171c010a45a27dcc8c15b37708",
+        "type": "github"
+      }
+    },
     "nixpkgs-betaflight": {
       "locked": {
         "lastModified": 1707336555,
@@ -205,6 +221,7 @@
         "nix-index-db": "nix-index-db",
         "nixos-ez-flake": "nixos-ez-flake",
         "nixpkgs": "nixpkgs",
+        "nixpkgs-anydesk": "nixpkgs-anydesk",
         "nixpkgs-betaflight": "nixpkgs-betaflight",
         "pre-commit-hooks-nix": "pre-commit-hooks-nix",
         "treefmt-nix": "treefmt-nix"
