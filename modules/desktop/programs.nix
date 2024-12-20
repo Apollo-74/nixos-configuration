@@ -75,6 +75,7 @@
     kubectl
     remmina
     zellij
+    strongswan
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
