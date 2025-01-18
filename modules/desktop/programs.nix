@@ -1,4 +1,9 @@
-{ pkgs, config, ... }:
+{
+  pkgs,
+  config,
+  lib,
+  ...
+}:
 {
   programs = {
     firefox.enable = true;
@@ -76,8 +81,14 @@
     remmina
     zellij
     strongswan
+    kubernetes-helm
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
   virtualisation.docker.enable = true;
+
+  services.strongswan.enable = true;
+  systemd.services.strongswan.environment.STRONGSWAN_CONF =
+    lib.mkForce "/home/apollo/ipsec/strongswan.conf";
+  services.strongswan.secrets = [ "/etc/ipsec-foo.secret" ];
 }
