@@ -82,6 +82,7 @@
     zellij
     strongswan
     kubernetes-helm
+    uv
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
