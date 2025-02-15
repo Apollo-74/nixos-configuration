@@ -83,6 +83,7 @@
     strongswan
     kubernetes-helm
     uv
+    btop
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
