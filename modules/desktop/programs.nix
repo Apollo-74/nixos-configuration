@@ -12,6 +12,7 @@
     htop.enable = true;
     traceroute.enable = true;
     nano.enable = false;
+    foot.enable = true;
     git = {
       enable = true;
       config = {
@@ -46,11 +47,9 @@
     tldr
     pciutils
     usbutils
-    starship
     python3
     vscode
     scripts.sf
-    alacritty
     gparted
     gsmartcontrol
     lact
@@ -58,6 +57,7 @@
     kdePackages.kdenlive
     kdePackages.ksvg
     jetbrains.pycharm-community
+    nerd-fonts.jetbrains-mono
     go
     fastfetch
     mpv
