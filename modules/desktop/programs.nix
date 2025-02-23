@@ -56,7 +56,7 @@
     kdePackages.kcalc
     kdePackages.kdenlive
     kdePackages.ksvg
-    jetbrains.pycharm-community
+    jetbrains.pycharm-professional
     nerd-fonts.jetbrains-mono
     go
     fastfetch
