@@ -12,7 +12,7 @@
     htop.enable = true;
     traceroute.enable = true;
     nano.enable = false;
-    foot.enable = true;
+    foot.enable = false;
     git = {
       enable = true;
       config = {
@@ -40,6 +40,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    alacritty
     fd
     ripgrep
     eza
