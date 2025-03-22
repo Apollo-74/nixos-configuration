@@ -6,7 +6,7 @@
       importByDefault = true;
       modules = inputs.self.nixosModules;
       imports = {
-        servers.openssh = false;
+        servers.openssh = true;
       };
     };
 

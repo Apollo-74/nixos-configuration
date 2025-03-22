@@ -85,6 +85,7 @@
     kubernetes-helm
     uv
     btop
+    bat
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
