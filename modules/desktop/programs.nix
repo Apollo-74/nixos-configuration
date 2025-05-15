@@ -58,6 +58,7 @@
     kdePackages.kdenlive
     kdePackages.ksvg
     jetbrains.pycharm-professional
+    jetbrains.goland
     nerd-fonts.jetbrains-mono
     go
     fastfetch
@@ -86,6 +87,8 @@
     uv
     btop
     bat
+    k9s
+    obsidian
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
