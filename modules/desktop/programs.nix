@@ -89,6 +89,8 @@
     bat
     k9s
     obsidian
+    rustdesk
+    networkmanager-strongswan
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;

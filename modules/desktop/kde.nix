@@ -9,5 +9,4 @@
   ];
   hardware.graphics.enable = true;
   networking.networkmanager.enable = true;
-  networking.networkmanager.enableStrongSwan = true;
 }
