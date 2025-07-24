@@ -37,6 +37,10 @@
       enable = true;
       defaultEditor = true;
     };
+    nekoray = {
+      enable = true;
+      tunMode.enable = true;
+    };
   };
 
   environment.systemPackages = with pkgs; [
@@ -78,7 +82,6 @@
     docker
     libgcc
     gcc
-    nekoray
     kubectl
     remmina
     zellij
@@ -91,6 +94,7 @@
     obsidian
     rustdesk
     networkmanager-strongswan
+    zed-editor
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
