@@ -92,7 +92,6 @@
     bat
     k9s
     obsidian
-    rustdesk
     networkmanager-strongswan
     zed-editor
   ];
