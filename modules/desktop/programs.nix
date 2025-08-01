@@ -91,7 +91,6 @@
     btop
     bat
     k9s
-    obsidian
     networkmanager-strongswan
     zed-editor
   ];
@@ -99,6 +98,7 @@
   virtualisation.spiceUSBRedirection.enable = true;
   virtualisation.docker.enable = true;
 
+  services.tailscale.enable = true;
   services.strongswan.enable = true;
   systemd.services.strongswan.environment.STRONGSWAN_CONF =
     lib.mkForce "/home/apollo/ipsec/strongswan.conf";
