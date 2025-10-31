@@ -93,6 +93,7 @@
     k9s
     networkmanager-strongswan
     zed-editor
+    sshfs
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
