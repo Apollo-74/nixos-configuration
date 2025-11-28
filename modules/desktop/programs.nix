@@ -83,6 +83,7 @@
     libgcc
     gcc
     kubectl
+    kubecolor
     remmina
     zellij
     strongswan

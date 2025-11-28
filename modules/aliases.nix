@@ -5,7 +5,7 @@ in
   environment.shellAliases = {
     ip = "ip --color=auto";
     sctl = "systemctl";
-    k = "kubectl";
+    k = "kubecolor";
     sudo = "sudo "; # this will make sudo work with shell aliases/man alias
 
     # NixOS
