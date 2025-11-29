@@ -37,7 +37,7 @@
       enable = true;
       defaultEditor = true;
     };
-    nekoray = {
+    throne = {
       enable = true;
       tunMode.enable = true;
     };
