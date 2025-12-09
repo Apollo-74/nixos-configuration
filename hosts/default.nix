@@ -15,7 +15,8 @@ with inputs;
               inherit hostName;
             };
           }
-        ] ++ inputs.nixos-ez-flake.importsFromAttrs { inherit modules; };
+        ]
+        ++ inputs.nixos-ez-flake.importsFromAttrs { inherit modules; };
       }
     ) (lib.removeAttrs (inputs.nixos-ez-flake.mkModuleTree ./.) [ "self" ]);
     packages =
