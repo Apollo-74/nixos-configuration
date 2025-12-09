@@ -98,6 +98,7 @@
     terraform
     talosctl
     foot
+    freerdp
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
