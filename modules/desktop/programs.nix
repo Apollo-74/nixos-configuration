@@ -95,6 +95,7 @@
     networkmanager-strongswan
     zed-editor
     sshfs
+    talosctl
     foot
   ];
 
