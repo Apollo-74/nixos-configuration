@@ -59,9 +59,8 @@
     gsmartcontrol
     lact
     kdePackages.kcalc
-    kdePackages.kdenlive
     kdePackages.ksvg
-    jetbrains.pycharm-professional
+    jetbrains.pycharm
     jetbrains.goland
     nerd-fonts.jetbrains-mono
     go
@@ -75,7 +74,6 @@
     tree
     telegram-desktop
     betaflight-configurator
-    anydesk
     kdiskmark
     qbittorrent
     dig
@@ -99,6 +97,7 @@
     talosctl
     foot
     freerdp
+    jq
   ];
 
   virtualisation.spiceUSBRedirection.enable = true;
