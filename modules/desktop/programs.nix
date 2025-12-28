@@ -7,7 +7,6 @@
 {
   programs = {
     firefox.enable = true;
-    steam.enable = true;
     direnv.enable = true;
     htop.enable = true;
     traceroute.enable = true;
