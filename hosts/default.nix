@@ -30,9 +30,13 @@ with inputs;
             name:
             with cfgs.${name};
             if name == "liveCD" then
-              [ { ${pkgs.system}.${name} = config.system.build.isoImage; } ]
+              [
+                { ${pkgs.stdenv.hostPlatform.system}.${name} = config.stdenv.hostPlatform.system.build.isoImage; }
+              ]
             else
-              [ { ${pkgs.system}.${name} = config.system.build.toplevel; } ]
+              [
+                { ${pkgs.stdenv.hostPlatform.system}.${name} = config.stdenv.hostPlatform.system.build.toplevel; }
+              ]
           )
         )
       );
