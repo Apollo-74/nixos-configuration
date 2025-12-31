@@ -4,11 +4,4 @@ inputs: _final: prev: {
   betaflight-configurator = prev.betaflight-configurator.override {
     inherit (inputs.nixpkgs-betaflight.legacyPackages.${prev.stdenv.hostPlatform.system}) nwjs;
   };
-  inherit
-    (import inputs.nixpkgs-anydesk {
-      inherit (prev.stdenv.hostPlatform) system;
-      config.allowUnfree = true;
-    })
-    anydesk
-    ;
 }

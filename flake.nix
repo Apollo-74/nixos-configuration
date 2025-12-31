@@ -4,7 +4,6 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixpkgs-betaflight.url = "github:nixos/nixpkgs/c9223ea44c223379f22a091c57700fa378a758df";
-    nixpkgs-anydesk.url = "github:nixos/nixpkgs/d16a573e0483ef171c010a45a27dcc8c15b37708";
 
     flake-registry = {
       url = "github:nixos/flake-registry";
