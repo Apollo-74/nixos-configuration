@@ -72,7 +72,6 @@
     libreoffice
     tree
     telegram-desktop
-    betaflight-configurator
     kdiskmark
     qbittorrent
     dig
