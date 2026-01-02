@@ -61,7 +61,6 @@
     kdePackages.ksvg
     jetbrains.pycharm
     jetbrains.goland
-    nerd-fonts.jetbrains-mono
     go
     fastfetch
     mpv
@@ -85,7 +84,6 @@
     strongswan
     kubernetes-helm
     uv
-    btop
     bat
     k9s
     networkmanager-strongswan
