@@ -8,5 +8,4 @@
     discover
   ];
   hardware.graphics.enable = true;
-  networking.networkmanager.enable = true;
 }
