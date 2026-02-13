@@ -36,6 +36,7 @@
       enable = true;
       defaultEditor = true;
     };
+    openvpn3.enable = true;
     throne = {
       enable = true;
       tunMode.enable = true;
